@@ -1,0 +1,305 @@
+body{
+	font-family: Arial;
+	/*background:#DDD url(../images/bg.png) repeat top left;*/
+	/*background: #F8FAFE url(../../gambar/bg2.png) repeat top left;*/
+	/*background: #FFF url(../../gambar/bg3s.png)repeat top left;*/
+	margin: 0;
+	padding: 0;	
+
+	font-size: 13px;
+line-height: 18px;
+color: #222;
+/*	
+	*/
+
+
+
+
+	}
+#box-luar{
+	width: 100%;
+	height: 100%;	
+	position: relative;
+}
+#box-luar{	
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: top left;
+	background-size: 1500px;
+}
+/*code untuk header*/
+
+#header-bar{
+	height: auto;
+	text-align: left;
+	border-bottom: 1px solid #333;
+	background-color: rgba(51, 51, 51, 0.24);
+	overflow: hidden;
+}
+#wrapper,
+#wrapper-form, 
+#wrapper-dashboard,
+#wrapper-homepage{
+	display:none;
+	text-align: left;
+	position: relative;
+	width:1000px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 35px;
+	height:auto;
+	border:#C96 solid 3px;
+   	min-height:10px;
+   	-moz-border-radius: 7px;
+  	-webkit-border-radius: 7px;
+  	border-radius: 7px;
+  	background-color: white;
+}
+.bungkus-dalam{
+	display:none;
+}
+
+#wrapper-homepage{
+	width:1300px;
+}
+
+#wrapper{
+	width:1200px;
+}
+
+#header-1{
+   padding:10px; 
+   margin:0px;
+   
+}
+#header{
+	border:#C96 solid 3px;
+	border-radius:7px 7px 0px 0px;
+   -moz-border-radius:7px 7px 0px 0px;
+   -webkit-border-radius:7px 7px 0px 0px;   
+   padding:15px; 
+   margin:-1px;
+   background-color:#C96;
+	}
+
+.bungkus-logo{
+	padding-left:5px;
+	padding-right:30px;
+	background-image: url(../img/mix/logo-kab-kediri.png);
+	}
+.judul-header{
+	padding-left: 94px;
+	background-repeat: no-repeat;
+}
+
+.judul-header a .eheader strong{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 35px;
+	font-weight: bold;
+	width: 100%;
+	text-decoration:none;
+	color:#FFF;
+	width: 100%;
+	} 
+	
+.judul-header a .sistem{	
+	color:#FFF;
+	font-size:18px;
+	text-decoration:none;
+	font-weight: normal;
+	width: 100%;
+	line-height: 22px;
+	margin-top: 9px;
+
+}
+.judul-header a:hover{
+	text-decoration: none;
+}
+
+
+a{
+	text-decoration:none;
+	color:#000;
+}
+div.sistem:hover{
+	text-shadow:0px 2px 1px rgba(0, 0, 0, 0.3);
+}
+
+
+.btn{
+	margin:10px;
+}
+
+.keterangan-login{
+	margin: 10px 0px 2px 10px;
+color: #FFF;
+background-color: rgba(255, 255, 255, 0.31);
+padding: 10px;
+width: 355px;
+border-radius: 7px;
+-webkit-border-radius: 7px;
+-moz-border-radius: 7px;
+}
+
+.keterangan-login .link-user{
+	background-color: rgba(68, 233, 226, 0.68);
+	width: 135;
+	padding: 5;
+	border-radius: 6px;
+	margin-top: 6px;
+	float: right;
+	margin-right: -9px;
+	text-align: right;
+}
+.keterangan-login .link-user:hover{
+	background-color: rgba(68, 233, 226, 0.49);
+}
+.keterangan-login .link-user a{
+	color: white;
+	font-style: bold;
+}
+
+/*css untuk form login*/
+h3.j-login{
+	font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+	font-size: 19px;
+	line-height: 35px;	
+	font-weight: 400;	
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+	padding: 0px 0px 5px 0px;
+}
+
+#box-login{
+	padding: 9px;
+	background-color: rgba(209, 209, 209, 0.24);
+	border-radius: 7px;
+	border-bottom: 1px solid rgba(204, 204, 204, 0.69);
+}
+.tb_login{
+	width: 100%;
+	margin-bottom: 0px;
+	padding: 0;
+	font-size: 15px;
+	border-collapse: collapse;
+	line-height: 22px;
+}
+.tb_login td{
+	border-top: none;
+}
+
+
+.tb_login input[type='text'], .tb_login input[type='password']{
+	padding: 13px 5px;
+	width:300px;
+	font-size: 15px;
+}
+
+.img-capt{	
+	margin-top: 0px;
+	width: 70px;
+	height: 29px;
+}
+
+}
+
+.modal-header{	
+  background-color: #0064cd;
+  background-repeat: repeat-x;
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#049cdb), to(#0064cd));
+  background-image: -moz-linear-gradient(top, #049cdb, #0064cd);
+  background-image: -ms-linear-gradient(top, #049cdb, #0064cd);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #049cdb), color-stop(100%, #0064cd));
+  background-image: -webkit-linear-gradient(top, #049cdb, #0064cd);
+  background-image: -o-linear-gradient(top, #049cdb, #0064cd);
+  background-image: linear-gradient(top, #049cdb, #0064cd);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#049cdb', endColorstr='#0064cd', GradientType=0);
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  border-color: #0064cd #0064cd #003f81;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+}
+.modal-header h3{
+	color:white;
+}
+.modal-footer{
+	padding: 14px 15px 0px;
+}
+
+/*meniru css gebo...*/
+
+.top_b{
+	text-shadow: 0 1px 0 rgba(255,255,255,.5);
+font: 100 18px/42px 'PT Sans', sans-serif;
+height: 42px;
+padding: 0 20px;
+background: #e0e0e0;
+border-bottom: 1px solid #ccc;
+font-size: 15px;
+}
+
+.alert-login {
+margin: 10px 10px 0;
+}
+
+.cnt_b{
+	padding: 30px 0;
+width: 60%;
+margin: 0 auto;
+
+}
+
+[class^="icon-"], [class*=" icon-"] {
+margin-top: 0;
+}
+
+label, input, button, select, textarea, select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input, .btn {
+	font-size: 13px;
+}
+
+input[type="text"], input[type="email"], input[type="search"], input[type="password"] {
+-webkit-appearance: none;
+-moz-appearance: none;
+padding: 6px;
+}
+a, button, input {
+outline: none !important;
+}
+
+.btm_b{
+	padding: 2px 20px;
+border-top: 1px solid #e7e7e7;
+background: #f7f7f7;
+-moz-border-radius-topleft: 0px;
+-moz-border-radius-topright: 0px;
+-moz-border-radius-bottomright: 6px;
+-moz-border-radius-bottomleft: 6px;
+-webkit-border-radius: 0px 0px 6px 6px;
+border-radius: 0px 0px 6px 6px;
+}
+
+.link_reg {
+font-size: 11px;
+padding: 5px 0 0;
+display: block;
+}
+
+form {
+margin: 0 0 20px;
+}
+
+.modal{
+	width: 386px;
+margin: -180px 0 0 -200px;
+}
+input.input-captca{
+	margin-left: 3px;
+width: 160px;
+}
+
+.cr{
+text-shadow: 0 1px 0 rgba(255,255,255,.5);
+font: 12px 'PT Sans', sans-serif;
+margin: 13px auto 0px;
+width: 245px;
+color: rgb(151, 151, 151);
+padding: 0;
+}

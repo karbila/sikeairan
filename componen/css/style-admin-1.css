@@ -1,0 +1,497 @@
+body{
+	font-family: Arial;	
+	margin: 0;
+	padding: 0;	
+}
+#box-luar{
+	width: 100%;
+	height: 100%;	
+	position: relative;
+}
+#box-luar{
+	background: url(../img/bags/bg-login4.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: top left;
+	background-size: 1500px;
+}
+/*code untuk header*/
+
+#header-bar{
+	height: auto;
+	text-align: left;
+	border-bottom: 1px solid #333;
+	background-color: rgba(51, 51, 51, 0.24);
+	overflow: hidden;
+}
+#wrapper,
+#wrapper-form, 
+#wrapper-dashboard,
+#wrapper-homepage{
+	display:none;
+	text-align: left;
+	position: relative;
+	width:1000px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 35px;
+	height:auto;
+	border:#C96 solid 3px;
+   	min-height:10px;
+   	-moz-border-radius: 7px;
+  	-webkit-border-radius: 7px;
+  	border-radius: 7px;
+  	background-color: white;
+}
+.bungkus-dalam{
+	display:none;
+}
+
+#wrapper-homepage{
+	width:1300px;
+}
+
+#wrapper{
+	width:1200px;
+}
+
+#header-1{
+   padding:10px; 
+   margin:0px;
+   
+}
+#header{
+	border:#C96 solid 3px;
+	border-radius:7px 7px 0px 0px;
+   -moz-border-radius:7px 7px 0px 0px;
+   -webkit-border-radius:7px 7px 0px 0px;   
+   padding:15px; 
+   margin:-1px;
+   background-color:#C96;
+	}
+
+.bungkus-logo{
+	padding-left:5px;
+	padding-right:30px;
+	background-image: url(../img/mix/logo-kab-kediri.png);
+	}
+.judul-header{
+	padding-left: 94px;
+	background-repeat: no-repeat;
+}
+
+.judul-header a .eheader strong{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 35px;
+	font-weight: bold;
+	width: 100%;
+	text-decoration:none;
+	color:#FFF;
+	width: 100%;
+	} 
+	
+.judul-header a .sistem{	
+	color:#FFF;
+	font-size:18px;
+	text-decoration:none;
+	font-weight: normal;
+	width: 100%;
+}
+.judul-header a:hover{
+	text-decoration: none;
+}
+
+
+a{
+	text-decoration:none;
+	color:#000;
+}
+div.sistem:hover{
+	text-shadow:0px 2px 1px rgba(0, 0, 0, 0.3);
+}
+/*code untuk dashboard*/
+#menu-dashboard{
+	background-color:#C93;
+	width:auto;
+	padding:5px;
+	border: #FFF solid 3px;
+	border-left: none;
+	border-right: none;
+}
+#menu-manj-dok-pribadi{
+	background-color:#FFF;
+	width:auto;
+	padding:5px;
+}
+
+
+.garis{
+	border-bottom: dotted #C5C5C5 2px;
+	width: auto;
+	margin: 0px 20px 0px 20px;
+	background-color: #FFF;
+}
+
+#area1{
+	display: block;
+	clear: left;
+	width: auto;
+	padding: 16px;
+	margin: 0;
+	clear: both;
+	text-align: justify;
+	font-size: 12px;
+	background-color: #FFF;
+}
+
+#area3{
+	display: block;
+	clear: left;
+	width: auto;
+	padding: 1px 20px 20px 20px;
+	margin: 0;
+	clear: both;
+	text-align: justify;
+	font-size: 12px;
+	background-color: #FFF;
+}
+#kolom-kanan-ru, #kolom-kiri-ru{
+	width: auto;
+	padding: 0;
+	margin: 0;
+	text-align: left;
+	font-size: 12px;
+}
+.welcoming{
+	line-height: 22px;
+}
+
+#area1 #bungkus-foto-welcoming{
+	display: block;
+	clear: left;
+	width: 700px;
+	padding: 0;
+	margin: 0;
+	clear: both;
+	background-color: #FFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+div#waktu{
+	width: 300px;
+}
+#waktu div#date, 
+#waktu div#clock{
+	float: right;
+	margin-right: 5px;
+	margin-left: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	width: auto;
+	height: 15px;
+	font-size: 1.0em;
+	color: #333;
+}
+.foto{
+	margin: 4px;
+	padding: 4px;	
+	width: 113px;
+	border: #00B8DB solid 3px;
+	min-height: 10px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	border-radius: 7px 7px 7px 7px;
+	box-shadow: 3px 5px 15px rgba(0, 4, 1, 0.09);
+}
+#area1 #bungkus-foto-welcoming .welcoming{
+	float: right;
+	width: 583px;
+	margin-right: 1px;
+	margin-top: 86px;
+}
+
+#area2 #folder-accordion{
+	margin: 4px;
+	width: 255px;
+	height: auto;
+}
+
+#bungkus-luar-tabel-dan-cari #homepage-kiri{
+	width: 23%;
+	height: auto;	
+}
+#area2 .kurva{
+ 	float: right;
+	width: 35%;
+	margin: 5px;
+	padding: 0px 0px 5px 0px;
+	border: solid 1px #ECEBEB;
+	text-align: center;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+ }
+
+#area2 .judul-kurva{
+	margin: -2px -2px 10px -2px;
+	border: #963 solid 1px;
+	text-align: center;
+	font-size: 13px;
+	font-weight: bold;
+}
+#area3 #content-kanan, 
+#bungkus-form #content-kanan{
+	float: right;
+	width: 50%;
+}
+#bungkus-form #content-kanan{
+	margin: 10px 0px 10px 10px;
+	width: 49%;
+
+}
+#area3 #content-kiri{
+	width: 50%;
+}
+
+#area3 .border-box-area3,
+#kolom-kiri-ru .kolom-kiri-bawah,
+#kolom-kanan-ru .kolom-kanan-atas,
+#kolom-kanan-ru .kolom-kanan-bawah{
+	margin: 15px 15px 15px 5px;
+	padding: 0px 0px 5px 0px;
+	border: solid 1px #ECEBEB;
+	text-align: center;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+#area4, #area2{
+	display: block;
+	clear: left;
+	width: auto;
+	margin: 0;
+	clear: both;
+	font-size: 12px;
+	background-color: white;
+	position: relative;
+}
+#area4 .judul-box{
+	border: solid 1px #ECEBEB;
+	text-align: center;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+}
+
+
+#footer-sul1{
+	margin:auto;
+	padding:5px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:small;
+	background-color:#C96;
+	color:#000;
+	}
+#wrapper-form div.bungkus-dalam{
+	margin: 10px;
+	padding: 10px;
+	background-color: #FFF;
+	width: auto;
+	height: auto;
+
+}
+
+
+div.bungkus-dalam #login-bungkus-kiri,
+div.bungkus-dalam #login-bungkus-kanan,
+div.bungkus-dalam #login-bungkus-pengolah-sistem{
+	margin: 20px;
+	padding: 5px 5px 15px 5px;	
+	background-color: #FAFAFA;	
+	height: auto;
+	border:#B9B9B9 solid 1px;
+	border-radius: 10px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	min-height: 300px;
+	width: 62%;
+}
+div.bungkus-dalam #login-bungkus-pengolah-sistem{
+	margin: -15px auto 20px;
+	height: auto;
+	width: auto;
+	float: none;
+	width: 31%;
+	-webkit-box-shadow:rgba(200, 200, 200, 0.7) 0 4px 10px -1px;
+	-moz-box-shadow:rgba(200, 200, 200, 0.7) 0 4px 10px -1px;
+	box-shadow: rgba(200, 200, 200, 0.7) 0 4px 10px -1px;
+
+}
+
+div.bungkus-dalam #login-bungkus-kanan{
+	float: right;
+	width: 30%;
+	-webkit-box-shadow:rgba(200, 200, 200, 0.7) 0 4px 10px -1px;
+	-moz-box-shadow:rgba(200, 200, 200, 0.7) 0 4px 10px -1px;
+	box-shadow: rgba(200, 200, 200, 0.7) 0 4px 10px -1px;
+
+}
+div.bungkus-login-box-admin{
+	height: auto;
+
+}
+
+
+.bungkus-login-box, .bungkus-informasi{
+	margin: 5px;
+	padding: 5px;
+	height: auto;
+}
+
+
+div.judul-logins,
+div.judul-logins-admin{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	padding: 5px;
+	text-align: center;
+	color: #930;
+	width: auto;
+	margin: 6px 20px 7px;
+	font-weight: bold;
+	background-color: #FFF;
+	border: #F1F1F1 1px solid;
+	border-radius: 6px;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	-webkit-box-shadow:rgba(200, 200, 200, 0.7) 0 4px 10px -1px;
+	-moz-box-shadow:rgba(200, 200, 200, 0.7) 0 4px 10px -1px;
+	box-shadow: rgba(200, 200, 200, 0.7) 0 4px 10px -1px;
+	
+}
+div.judul-logins-admin-1{
+	font-family: Arial;
+	color: white;	
+	margin: 30px auto 0;
+	font-size: 30px;
+	width: 422px;
+	padding: 10px 7px 20px 0px;
+	text-align: left;
+	text-shadow:0px 1px 1px rgba(0,0,0, 0.3);
+}
+
+.bungkus-login-box div.bungkus-login-asli{
+	margin:0;
+	padding:0;
+	min-height: 300px;
+	width: auto;
+}
+.bungkus-login-box-admin div.bungkus-login-asli{
+	margin: 20px 20px 50px 20px;
+	min-height: 300px;
+	height: auto;
+}
+
+
+
+h4.baris-login{
+	margin:5px 0px 5px 0px;
+	padding: 0px;	
+}
+h4.baris-login label, .bungkus-informasi{
+	font-family: Arial;
+	font-size: 13px;
+	float: left;
+	clear: left;
+	display: block;
+	margin: 5px;
+	font-style: normal;
+	font-weight: normal;
+
+}
+.bungkus-informasi{
+	background-color: #EBEBEB;
+	border: #E4E4E4 1px solid;
+	width: auto;
+	padding: 10px;
+	margin: 6px 20px 7px
+}
+
+div.input-text-login{
+	padding: 0px;
+	margin: 0px;
+	width: auto;	
+}
+
+div.input-text-logins{
+	border: solid #FFF;
+	border-bottom: 8px;
+	border:none;
+}
+.bungkus-login-asli label{
+	font-weight: bold;
+}
+
+
+
+div.input-text-login-captca{
+	margin: 5px 5px 0px 1px;
+	padding: 3px;
+	width: 100px;
+}
+
+
+div.input-text-login input#input-beda{
+	font-family: Verdana;
+	font-weight:bold;
+	color:#2A2936;
+}
+
+
+.bungkus-login-asli div.input-tombol,
+.bungkus-login-asli div.input-tombol-admin{
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	width: auto;
+
+}
+
+/*CSS UNTUK DASHBOARD RU*/
+#kolom-kiri-ru, #kolom-kanan-ru{
+	float: left;
+	width: 50%;
+	
+}
+
+#kolom-kiri-ru .kolom-kiri-atas,
+#kolom-kiri-ru .kolom-kiri-bawah{
+	margin: 15px;	
+}
+.kolom-kiri-atas{
+	width: 255px;
+	height: auto;
+}
+#kolom-kiri-ru div.kolom-kiri-atas{
+	margin: 15px auto;
+}
+
+/*css input-input unruk login*/
+div.input-text-login input[type="text"], 
+div.input-text-login input[type="password"],  
+div.input-text-login-select select{
+	width: 100%;
+	font-family: Arial;
+	color:#2A2936;
+	padding: 6px;
+	margin: 3px;
+	background-color:#FFF;
+	border: solid #AAA 1px; 
+	width: 100%;
+	height: 32px;
+	font-size: 14px;
+	border: 1px solid #D9D9D9;
+	border-top: 1px solid silver;
+
+}
